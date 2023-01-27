@@ -36,9 +36,9 @@ like:
 
 		SetSize(m_pImageInstance->GetWidth(), m_pImageInstance->GetHeight());
 		UpdateRect();
-// add
-		HLDetectv2(c_szFileName);   <<< HERE
-// add
+
+		HLDetectv2(c_szFileName);  // <<< HERE
+
 		return TRUE;
 	}
 
